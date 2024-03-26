@@ -12,6 +12,7 @@ import "./04-tuple_enum/enum.ts";
 import "./04-tuple_enum/unknown.ts";
 import "./04-tuple_enum/never.ts";
 import "./05-import_export/tutorial.ts";
+import "./06-typeguard/index.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
