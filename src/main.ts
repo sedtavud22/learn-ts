@@ -9,6 +9,9 @@ import "./03-alias_interface/alias.ts";
 import "./03-alias_interface/interface.ts";
 import "./04-tuple_enum/tuple.ts";
 import "./04-tuple_enum/enum.ts";
+import "./04-tuple_enum/unknown.ts";
+import "./04-tuple_enum/never.ts";
+import "./05-import_export/tutorial.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
