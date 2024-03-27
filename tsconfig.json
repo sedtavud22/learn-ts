@@ -12,14 +12,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    // "moduleDetection": "force",
+    "moduleDetection": "force",
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "allowJs": true
   },
-  "include": ["src"]
+  "include": ["src", "tasks.ts"]
 }
